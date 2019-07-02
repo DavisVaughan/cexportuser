@@ -13,7 +13,7 @@
 
 // Now all you have to do is include the API file we created
 // and you can call `cexport_plus_one()`
-#include <cexport_api.h>
+#include <cexport.h>
 
 SEXP cexportuser_plus_two(SEXP x) {
   return cexport_plus_one(cexport_plus_one(x));
